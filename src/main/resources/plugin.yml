@@ -1,0 +1,32 @@
+name: OneBlockCore
+version: '§fOneblock dla §bZacolca UWU'
+main: me.melonik.oneblockcore.Main
+api-version: '1.19'
+author: Melonik
+depend: [PlaceholderAPI, Vault]
+softdepend: [Citziens]
+commands:
+  is:
+    description: Główna komenda systemu wysp
+    aliases: [island, islands, wyspa]
+  panel:
+    description: Panel zarządzania wyspą
+    aliases: [panelwyspy]
+  home:
+    description: Domy
+    aliases: [dom, domy]
+  sethome:
+    description: Ustawdom
+    aliases: [ ustawdom, ustawdomy ]
+  oa:
+    description: Komendy administracyjne
+    permission: oneblock.admin
+  money:
+    description: Zarządzanie ekonomią
+    aliases: [bal, balance]
+  pay:
+    description: Przelew pieniędzy
+  eco:
+    description: Zarządzanie ekonomią (admin)
+    permission: oneblock.admin
+  bank:
